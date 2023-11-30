@@ -68,7 +68,5 @@ public class PlayerMovementWalk : MonoBehaviour
             UpdateFriction();
 
         UpdateWalking(walkDirection);
-
-        walkDirection = Vector2.zero;
     }
 }
